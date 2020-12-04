@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Coda|Codystar|Jacques+Francois+Shadow|Unica+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tictactoe.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script defer src="tictactoe.js"></script>
+  </head>
+  <body>
+
+    <form class="player1">
+        <label for="player-one">Player One:</label><br>
+        <input type="text" ><br>
+      </form>
+      <form class="player2">
+        <label for="player-two">Player Two:</label><br>
+        <input type="text" ><br>
+      </form>
+
+    <div class="game">
+        <h1 class="game-name">Tic Tac Toe</h1>
+        <div class="board">
+            <button class="cell">
+                <span class="cell-content">X</span>
+            </button>
+            <button class="cell">
+                <span class="cell-content">O</span>
+            </button>
+            <button class="cell">
+                <span class="cell-content"></span>
+            </button>
+            <button class="cell">
+                <span class="cell-content"></span>
+            </button>
+            <button class="cell">
+                <span class="cell-content"></span>
+            </button>
+            <button class="cell">
+                <span class="cell-content"></span>
+            </button>
+            <button class="cell">
+                <span class="cell-content"></span>
+            </button>
+            <button class="cell">
+                <span class="cell-content"></span>
+            </button>
+            <button class="cell">
+                <span class="cell-content"></span>
+            </button>
+        </div>
+
+    </div>
+
+        <div class="modal-overlay">
+            <div class="game-result-modal">
+                <div class="result-container">
+                    <div class="winner-container">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="new-game-conatiner">
+                    <button class="new-game-button">Click Here to Restart</button>
+                </div>
+            </div>
+
+        </div>
+
+    
+
+  </body>
+</html>
